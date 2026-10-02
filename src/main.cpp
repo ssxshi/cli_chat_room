@@ -71,7 +71,7 @@ int main(){
     char option = NULL_CHAR;
 
     while (option == NULL_CHAR){
-        std::cout << "Would you like to [J]oint a room or [C]reate one?\nEnter [x] to leave.\n";
+        std::cout << "Would you like to [J]oin a room or [C]reate one?\nEnter [x] to leave.\n";
 
         option = getchar();
 
